@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Atommodell</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+    <script src="libs/jquery.js"></script>
+
+    <script src="libs/three.js"></script>
+    <script src="libs/stats.js"></script>
+    <script src="libs/OrbitControls.js"></script>
+
+
+    <script src="libs/d3.js"></script>
+    <script src="libs/d3.layout.force3D.js"></script>
+    
+
+
+    <!-- SEE SOURCE HERE -->
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+        </style>
+
+    <style type="text/css">
+        body {
+            font-family:sans-serif;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+            background-color: black;
+
+        }
+        #stage {
+            position: absolute;
+            top:0px;
+            bottom: 0px;
+            left: 0px;
+            width: 70%;
+            overflow: hidden;
+        }
+
+
+        #stage2 {
+            position: absolute;
+            top:0px;
+            bottom: 0px;
+            right: 0px;
+            width: 30%;
+    }
+
+    .info {
+        width: 30%;
+        z-index: 100;
+        color: white;
+        background-color: black;
+        display: block;
+        float: right;
+
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+        
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="info">
+         <h1>Au</h1>
+        <p>Name: Gold </p>
+        <p>Standard State: Solid</p>
+        <p>Boiling-Point: 50000 deg<f/p>
+        <p>Electronegativity: 2.2</p>
+    </div>
+
+   
+
+   
+    <div id="stage"></div>
+    <script src="js/atommodell.js"></script>
+    <script src="js/test.js"></script>
+</body>
+
+</html>
